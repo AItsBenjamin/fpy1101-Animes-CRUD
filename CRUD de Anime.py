@@ -1,4 +1,4 @@
-# ===============================
+ # ===============================
 # CRUD DE ANIME - PYTHON
 # ===============================
 
@@ -76,7 +76,7 @@ def mostrar_animes():
         print("No hay animes registrados.")
         return
 
-    for i, anime in enumerate(animes, start=1):
+    for i, anime in enumerate(animes, start=1):    #enumerate hace que se añada un numero de indice sin tener yo que hacerlo
         print(f"""
 #{i}
 Nombre     : {anime['nombre']}
@@ -141,7 +141,7 @@ def eliminar_anime():
         print("❌ Debe ingresar un número válido.")
         return
 
-    animes.pop(indice)
+    animes.pop(indice)                     #".pop" elimina y devuelve un elemento de una lista o diccionario.
     print("🗑️ Anime eliminado correctamente.")
 
 # -------------------------
