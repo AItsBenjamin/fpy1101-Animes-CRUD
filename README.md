@@ -5,7 +5,8 @@ Un CRUD de anime
 
 Programa en Python que implementa las operaciones CRUD
 sobre uno(s) anime(s) usando funciones. 
-Añadiendo nombre del anime, genero de este, capitulos y temporadas
+Añadiendo nombre del anime, genero de este, capitulos y temporadas pudiendo editarlo y eliminar en caso de ser necesario almacenando todo en un diccionario.
+Evitando problemas de posible caida.
 
 ## Funciones
 - `agregar_producto(Nombre, Genero, Capitulos y Termporadas)` — CREATE
